@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hardcoded-path-finder"
+version = "0.1.0"
+description = "Find absolute and user-specific file paths in scripts that break portability."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "JANIN A APURBA", email = "japurba97@gmail.com"}]
+keywords = ["research", "automation", "reproducibility", "academic"]
+dependencies = []
+
+[project.scripts]
+hardcoded-path-finder = "hardcoded_path_finder.cli:main"
+
+[tool.setuptools]
+packages = ["hardcoded_path_finder"]
