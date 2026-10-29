@@ -7,9 +7,9 @@ Part of the *Research Automation Toolkit*: 100 open tools for daily research wor
 
 ## Why
 
-Hard-coded absolute paths are the single most common reason shared research code does not run
-(Trisovic et al., 2022 found most R scripts in Dataverse failed, often for exactly this reason).
-They also leak user names and folder structures when code is published. Replacing them with paths
+Hard-coded absolute paths are a frequent reason shared research code does not run elsewhere
+(Trisovic et al., 2022 found that most R files deposited in Harvard Dataverse failed to re-execute,
+with missing files and working-directory problems among the common errors). They also leak user names and folder structures when code is published. Replacing them with paths
 relative to the project, or with configuration, is easy once you know where they are.
 
 ## Detects
